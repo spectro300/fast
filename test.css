@@ -1,0 +1,33 @@
+.tabela-fixada {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .tabela-fixada th, 
+
+  .tabela-fixada td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  /* Fixa primeira e segunda coluna */
+  /* .tabela-fixada td:nth-child(2) {
+    position: sticky;
+    z-index: 1;
+  } */
+  
+  .tabela-fixada th:nth-child(1), 
+  .tabela-fixada td:nth-child(1) {
+    left: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .tabela-fixada th:nth-child(2), 
+  .tabela-fixada td:nth-child(2) {
+    left: 100px; /* ajuste conforme largura da primeira coluna */
+    background-color: #f7f7f7;
+  }
+  
